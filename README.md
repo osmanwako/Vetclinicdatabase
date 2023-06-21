@@ -136,7 +136,6 @@ Once psql shell is opened you can use the file schema.sql to create a table and 
 
 ## Future Features
 
-- **[Add database schema diagram]**
 - **[Adding Partition based on visited year]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
