@@ -17,7 +17,7 @@ CREATE TABLE
 CREATE TABLE
   medical_histories(
     id INT GENERATED ALWAYS AS IDENTITY,
-    admitted_at date,
+    admitted_at timestamp,
     patient_id INT REFERENCES patients(id),
     status VARCHAR(120),
     PRIMARY KEY(id)
@@ -34,9 +34,9 @@ CREATE TABLE
 CREATE TABLE
   invoices(
     id INT GENERATED ALWAYS AS IDENTITY,
-    total_amount VARCHAR(20),
-    generated_at DATE,
-    payed_at DATE,
+    total_amount DECIMAL,
+    generated_at timestamp,
+    payed_at timestamp,
     medical_history_id INT REFERENCES medical_histories(id),
     PRIMARY KEY(id)
   );
@@ -46,5 +46,8 @@ CREATE TABLE
     id INT GENERATED ALWAYS AS IDENTITY,
     invoice_id INT REFERENCES invoices(id),
     treatment_id INT REFERENCES treatments(id),
+    unit_price DECIMAL,
+    quantity INT,
+    total_price DECIMAL,
     PRIMARY KEY(id)
   );
