@@ -30,3 +30,21 @@ CREATE TABLE
     treatment_id INT REFERENCES treatments(id),
     PRIMARY KEY(id)
   );
+
+CREATE TABLE
+  invoices(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    total_amount VARCHAR(20),
+    generated_at DATE,
+    payed_at DATE,
+    medical_history_id INT REFERENCES medical_histories(id),
+    PRIMARY KEY(id)
+  );
+
+CREATE TABLE
+  invoice_items(
+    id INT GENERATED ALWAYS AS IDENTITY,
+    invoice_id INT REFERENCES invoices(id),
+    treatment_id INT REFERENCES treatments(id),
+    PRIMARY KEY(id)
+  );
