@@ -1,11 +1,11 @@
-# Animals clinic Database
+# Vet clinic Database
 
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
 - Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sqEditing animalsclinic/README.md at vet_clinic· osmanwako/animalsclinic · GitHubl](./data.sql) to populate tables with sample data.
+- Use [data.sqEditing animalsclinic/README.md at vet_clinic· osmanwako/vetclinicdatabase · GitHubl](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
@@ -34,9 +34,9 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 animalsclinic <a name="about-project"></a>
+# 📖 vetclinicdatabase <a name="about-project"></a>
 
-vet_clinic database is a database that includes data about animals and allowing efficient storage and retrieval information.
+vetclinicdatabase is a database that includes data about animals and allowing efficient storage and retrieval information.
 
 **animalsclinic** is a database designed by postgresql.
 
@@ -115,18 +115,29 @@ Once psql shell is opened you can use the file schema.sql to create a table and 
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Osman Wako
+👤 **Osman Wako**
 
 - GitHub: [@osmanwako](https://github.com/osmanwako)
 - Twitter: [@osmanWakow](https://twitter.com/osmanwakow)
 - LinkedIn :[@osmanWako](https://www.linkedin.com/in/osmanwako/)
 
+👤 **kimita wanjohi**
+
+- [@Github](https://github.com/kimitawanjohi)
+- [@Twitter](https://twitter.com/kimitaw)
+- [@LinkedIn](https://linkedin.com/in/kimitawanjohi)
+
+👤 **Oumaima Nejjari**
+
+- GitHub: [@aima98](https://github.com/aima98)
+- LinkedIn: [Oumaima Nejjari](https://www.linkedin.com/in/oumaima-nejjari-375065171/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future Features
 
-- **[Database performance audit]**
 - **[Add database schema diagram]**
+- **[Adding Partition based on visited year]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
