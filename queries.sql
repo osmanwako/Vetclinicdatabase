@@ -261,8 +261,6 @@ SELECT
 FROM
   animals;
 
-
-
 /*
  The following queries are taking too much time (1 sec = 1000ms can be considered
  as too much time for database query).Try them on your machine to confirm it:
