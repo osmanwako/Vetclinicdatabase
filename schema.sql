@@ -6,14 +6,12 @@ CREATE TABLE
     PRIMARY KEY(id)
   );
 
-
 CREATE TABLE
   species(
     id INT GENERATED ALWAYS AS IDENTITY,
     name VARCHAR(20),
     PRIMARY KEY(id)
   );
-
 
 CREATE TABLE
   animals(
@@ -28,7 +26,6 @@ CREATE TABLE
     PRIMARY KEY(id)
   );
 
-
 CREATE TABLE
   vets(
     id INT GENERATED ALWAYS AS IDENTITY,
@@ -38,7 +35,6 @@ CREATE TABLE
     PRIMARY KEY(id)
   );
 
-
 CREATE TABLE
   specializations(
     id INT GENERATED ALWAYS AS IDENTITY,
@@ -46,7 +42,6 @@ CREATE TABLE
     vet_id INT REFERENCES vets(id),
     PRIMARY KEY(id)
   );
-
 
 CREATE TABLE
   visits(
@@ -57,21 +52,17 @@ CREATE TABLE
     PRIMARY KEY(id)
   );
 
-
 -- Add an email column to your owners table
 ALTER TABLE
   owners
 ADD
   COLUMN email VARCHAR(120);
 
-
 --Add index for visits table on animal_id
 CREATE INDEX visits_animalsbyid ON visits(animal_id);
 
-
 --Add index for visits table on vet_id
 CREATE INDEX visits_vetsbyid ON visits(vet_id);
-
 
 --Add index for owners table on email
 CREATE INDEX owners_byemail ON owners(email);
