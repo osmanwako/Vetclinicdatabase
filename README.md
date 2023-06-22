@@ -123,20 +123,19 @@ Once psql shell is opened you can use the file schema.sql to create a table and 
 
 👤 **kimita wanjohi**
 
-- [@Github](https://github.com/kimitawanjohi)
-- [@Twitter](https://twitter.com/kimitaw)
-- [@LinkedIn](https://linkedin.com/in/kimitawanjohi)
+- GitHub: [@kimitawanjohi](https://github.com/kimitawanjohi)
+- Twitter: [@kimitaw](https://twitter.com/kimitaw)
+- LinkedIn: [@kimitawanjohi](https://linkedin.com/in/kimitawanjohi)
 
 👤 **Oumaima Nejjari**
 
 - GitHub: [@aima98](https://github.com/aima98)
-- LinkedIn: [Oumaima Nejjari](https://www.linkedin.com/in/oumaima-nejjari-375065171/)
+- LinkedIn: [Oumaima Nejjari](https://www.linkedin.com/in/oumaimanejjari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future Features
 
-- **[Add database schema diagram]**
 - **[Adding Partition based on visited year]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
